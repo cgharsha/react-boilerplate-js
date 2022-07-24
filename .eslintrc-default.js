@@ -1,9 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
-    node: true,
-    jest: true
+    es2021: true
   },
   extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
   parserOptions: {
@@ -15,15 +13,6 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/prop-types': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }]
   }
-  // overrides: [
-  // 	{
-  // 		files: ['**/*.spec.js', '**/*.spec.jsx'],
-  // 		env: {
-  // 			jest: true,
-  // 		},
-  // 	},
-  // ],
 };

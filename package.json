@@ -56,6 +56,6 @@
       "eslint --cache --fix",
       "npm run lint"
     ],
-    "**/*.{js,jsx,ts,tsx,scss,css,html,json,md}": "prettier --write ."
+    "**/*.{js,jsx,ts,tsx,scss,css,html,json,md}": "npx prettier --write ."
   }
 }
